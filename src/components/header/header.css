@@ -1,0 +1,79 @@
+header {
+    height: 100;
+    padding-top: 3rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    gap: 2rem;
+}
+
+
+/*     CTA     */
+
+.text-light {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aqua;
+    text-size-adjust: 100px;
+    margin-bottom: 2rem;
+}
+
+.cta {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 30rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+/*    header socials     */
+
+.header_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 35rem;
+    bottom: 2rem;
+}
+
+.header_socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+
+/*    ME   */
+
+.me {
+    align-items: center;
+    /* background: var(--color-primary); */
+    width: 22rem;
+    height: 28rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    /* margin: top 2rem; */
+    border-radius: 8rem 0;
+    overflow: hidden;
+    /* padding: 1rem 1.rem 1rem 0rem; */
+}
+
+.scroll_down {
+    margin-left: 2rem;
+    gap: 2rem;
+}
+
+
+/* .header_container, */
+
+.header_container {
+    font-family: 'Times New Roman', Times, serif;
+}
